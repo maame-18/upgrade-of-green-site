@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(74, 100, 4);
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+    logo {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    logo:hover {
+        color: black;
+    }
+    .dropbtn {
+
+        color: white;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropbtn {
+        background-color: rgb(74, 100, 4);
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background: transparent;
+        min-width: 100px;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 8px 8px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background: transparent;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+.body{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(61, 57, 57, 0.485), rgb(61, 57, 57, 0.485), rgba(61, 57, 57, 0.485)),url(Album/wallpaperflare.com_wallpaper\ \(10\).jpg) no-repeat center;
+
+}
+
+.slider-wrapper{
+ overflow: hidden;
+ max-width: 1200px;
+ margin: 0 70px 55px;
+}
+.card-list .card-item{
+color: #fff;
+user-select: none;
+padding: 35px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+backdrop-filter: blur(30px);
+background: rgba(255, 255, 255, 0.2);
+border:1px solid rgba(255, 255, 255, 0.5)
+}
+
+.card-list .card-item .user-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid white;
+    padding: 4px;
+}
+.card-list .card-item .user-action{
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: white;
+    height: 15px;
+    width:15px;
+}
+ .slider-wrapper .swiper-slide-button{
+    color: white;
+    margin-top: -50px;
+    transition: 0.2s ease;
+ }
+ .slider-wrapper .swiper-slide-button:hover{
+    color: #4658ff;
+ }
+
+ @media(max-width:768px){
+    .slider-wrapper{
+        margin: 0 10px 40px;
+    }
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+ }

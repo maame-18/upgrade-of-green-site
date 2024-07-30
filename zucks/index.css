@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.body{
+    background: rgb(34, 34, 35);
+    min-height: 100vh;
+}
+.game-mode{
+background:linear-gradient(to right,rgb(33, 30, 30), rgb(33, 30, 30), rgb(33, 30, 30));
+width: 270px;
+height: 100vh;
+}
+.border{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: cadetblue;
+    background: url(pictures/vpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img{
+display: flex;
+gap: 10px;
+}
+.grid{
+    display: grid;
+}
+.grid li:last-child{
+    background: #fff;
+    color: black;
+}
+li{
+    color: #fff;
+}
+
+.icon{
+    color: white;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    top: 15px;
+}
+.lis{
+    position:relative;
+    top: 25px;
+    /* border: 34px; */
+
+}
+.lis:hover{
+background-color: rgb(75, 74, 74);
+color:white;
+border-radius: 5px;
+
+}
+.icons{
+    color: white;
+}
+.drop{
+    color: #fff;
+    border-radius: 13px;
+    border:2px solid #aeacac;
+    margin-top: 20px;
+    padding: 10PX;
+    background-color: #323232;
+}
+.lis li:first-child{
+position: relative;
+left: 4cap;
+}
+.icons{
+    position: relative;
+    bottom: 16px;
+}
+.drop i{
+background-color: #323232;
+margin-left: 120px;
+}
+.images p{
+padding: 10px;
+
+}
+.images p1, h5{
+position: relative;
+bottom: 60px;
+left: 90px;
+color: white;
+}
+.images p1{
+color: #aeacac;
+position: relative;
+bottom: 80px;
+left: 90px;
+}
+ .images p2{
+    position: relative;
+    right: 105px;
+    bottom: 30px;
+ }
+
+  .footer{
+    position: relative;
+    top: 183px;
+ }
+ .sp{
+    color: white;
+    position: relative;
+    bottom: 45px;
+    left: 80px; 
+ }
+ p{
+    color:  #aeacac;
+ }
+ .main{
+    color: white;
+ }
+ .searchbar{
+    background-color:grey;
+    border: none;
+    position: absolute;
+    top: 0;
+}
+.text{
+    position: absolute;
+    /* bottom: 555px; */
+    top:50px;
+    left: 410px;
+}
+.pics{
+    display: flex;
+    position: absolute;
+    bottom: 300px;
+}
+.pics, p1{
+    right:-208px;
+    bottom:350px;
+    gap: 20px;
+}
+.pics-sub{
+    position: relative;
+    right: 440px;
+    top: 40px;
+}
